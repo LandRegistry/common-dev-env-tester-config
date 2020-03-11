@@ -1,0 +1,7 @@
+applications:
+
+  common-dev-env-tester-app:
+    repo: https://github.com/LandRegistry/common-dev-env-tester-app.git
+    ref: master
+
+post-up-message: Check that nginx returns 200, all the databases contain a TESTDB db, the tester-app exited with code 0, both custom provision scripts ran and all commodities are running
